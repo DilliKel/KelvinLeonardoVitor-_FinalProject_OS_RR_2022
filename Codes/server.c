@@ -1,10 +1,28 @@
+#ifndef UNICODE
+#define UNICODE
+#endif
+
+#define WIN32_LEAN_AND_MEAN
+
+#include <winsock2.h>
+#include <Ws2tcpip.h>
+#include <stdio.h>
+
+// Link with ws2_32.lib
+#pragma comment(lib, "Ws2_32.lib")
+
+// ------------------------------
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-// #include <arpa/inet.h>
 #include <winsock2.h>
-#include <sys/socket.h>
+
+//#include "zlib.h"
+
+// #include <sys/socket.h>
+//#include <arpa/inet.h>
 
 int main(){
 
@@ -48,13 +66,13 @@ int main(){
     addr_size = sizeof(client_addr);
     client_sock = accept(server_sock, (struct sockaddr*)&client_addr, &addr_size);
     printf("[+]Client connected.\n");
-
+    
     bzero(buffer, 1024);
     recv(client_sock, buffer, sizeof(buffer), 0);
     printf("Client: %s\n", buffer);
 
     bzero(buffer, 1024);
-    strcpy(buffer, "HI, THIS IS SERVER. HAVE A NICE DAY!!!");
+    strcpy(buffer, "Olá, aqui é o Servidor. Tenha um bom dia");
     printf("Server: %s\n", buffer);
     send(client_sock, buffer, strlen(buffer), 0);
 
