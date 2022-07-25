@@ -1,3 +1,15 @@
+#ifndef UNICODE
+#define UNICODE
+#endif
+
+#define WIN32_LEAN_AND_MEAN
+
+#include <Ws2tcpip.h>
+
+#pragma comment(lib, "Ws2_32.lib")
+
+//----------------------------------------------
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
