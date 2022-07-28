@@ -1,5 +1,4 @@
-# KelvinLeonardoVitor_FinalProject_OS_RR_2022
-Projeto Final da matéria de Sistemas Operacionais I
+# Projeto Final da matéria de Sistemas Operacionais I
 
 # Desenvolvido por:
 [Kelvin Araújo](https://github.com/DilliKel),
