@@ -5,14 +5,14 @@ Este aplicativo conecta cliente e servidor usando um soquete e um terminal ao se
 O cliente pode passar comandos para execução no terminal do servidor, e então a saída será recebida pelo cliente.
 
 # Desenvolvido por:
-[Kelvin Araújo](https://github.com/DilliKel),
-[Leonardo Carvalho](https://github.com/leonardocarMS), e
-[Victor Roberto](https://github.com/mandaver).
+- [Kelvin Araújo](https://github.com/DilliKel)
+- [Leonardo Carvalho](https://github.com/leonardocarMS)
+- [Victor Roberto](https://github.com/mandaver)
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 <p align="center">
-    TCP
+    Critérios avaliativos
     <br />
     <br />
     <a href="https://github.com/DilliKel/KelvinLeonardoVitor_FinalProject_OS_RR_2022/tree/main/CodesServerClient_TCP">Códigos</a>
@@ -24,6 +24,5 @@ O cliente pode passar comandos para execução no terminal do servidor, e então
   
   ------------------------------------------------------------------------------------------------------------------------------------
   <p align="center">
-    <br />
     <a href="https://github.com/DilliKel/KelvinLeonardoVitor_FinalProject_OS_RR_2022/tree/main/TCP%20em%20Python">TCP em Python</a>
      </p>
